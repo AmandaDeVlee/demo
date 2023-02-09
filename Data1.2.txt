@@ -1,0 +1,24 @@
+"City"	"State"	"Type"	"Lions"	"Tigers"	"Bears"	"Total"
+"New York City"	"NY"	"Zoo"	9	3	7	19
+"New York City"	"NY"	"University"	9	6	2	17
+"Asheville"	"NC"	"Zoo"	6	6	2	14
+"Teaneck"	"NJ"	"University"	6	5	8	19
+"San Francisco"	"CA"	"University"	2	2	4	8
+"San Francisco"	"CA"	"Private"	6	5	1	12
+"San Francisco"	"CA"	"Zoo"	6	6	7	19
+"Wilmington"	"NC"	"Private"	3	4	1	8
+"Wilmington"	"NC"	"University"	4	1	9	14
+"Miami"	"FL"	"Private"	7	8	3	18
+"Miami"	"FL"	"Zoo"	8	9	2	19
+"Homestead"	"FL"	"Zoo"	7	4	6	17
+"Chicago"	"IL"	"Zoo"	6	10	6	22
+"St. Louis"	"MO"	"University"	3	3	6	12
+"Joplin"	"MO"	"University"	5	0	7	12
+"Oklahoma City"	"OK"	"Zoo"	0	6	1	7
+"Amarillo"	"TX"	"University"	8	1	9	18
+"Flagstaff"	"AZ"	"Zoo"	1	5	5	11
+"Winona"	"AZ"	"University"	2	8	7	17
+"Kingman"	"AZ"	"Private"	2	6	8	16
+"Barstow"	"CA"	"Zoo"	8	3	6	17
+"San Bernandino"	"CA"	"Private"	3	3	10	16
+"Los Angelis"	"CA"	"Zoo"	1	2	6	9

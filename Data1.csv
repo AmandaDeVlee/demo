@@ -1,0 +1,37 @@
+library(demogR)
+
+#Ticks
+A <- matrix(c(
+    0,0,0,0,0,322.38,
+    .966,0,0,0,0,0,
+    .013,.01,.125,0,0,3.448,
+    .007,0,.125,.238,0,30.17,
+    .001,0,.36,.245,.167,.862,
+    0,0,0,.023,.75,0
+    
+),6)
+
+
+A <- t(A)
+
+
+x <- c(5,5,5,5,5,5)
+tmax <- 20
+
+N <- project.leslie(A, x, tmax = tmax)
+cols <- rgb(0, (10:1)/10, (1:10)/10)
+plot((0:20), N[1, ], type = "l", xlab = "Years",
+     ylab = "Population Size",
+     ylim = c(0, max(max(N))), col = cols[1])
+for (i in 1:6) lines((0:20), N[i, ], col = cols[i])
+
+
+N.tot <- project.leslie(A, x, tmax = tmax, pop.sum = TRUE)
+
+plot(N.tot, type = "l")
+
+
+Aea <- eigen.analysis(A)
+
+Aea
+
